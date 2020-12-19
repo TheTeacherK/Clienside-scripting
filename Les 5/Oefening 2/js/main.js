@@ -3,22 +3,15 @@
 
 
 function Reken() {
-    var getal1 = parseFloat(document.reken.getal1.value);
-    var zin = document.reken.zin.value;
 
-
-
+    var getal1 = parseFloat(document.getElementById('getal1').value);
+    var zin = document.getElementById('zin').value;
     var Teller;
 
-    for (Teller = 1; Teller <= getal1; Teller++) {
+    for (Teller = 1; Teller <= getal1; Teller++)
+    {
+       document.getElementById('uitkomst').value = document.getElementById('uitkomst').value + "\n" +  zin + " - nr: " + Teller;
+    }
 
-               document.reken.uitkomst.value = document.reken.uitkomst.value + "\n" +  zin + " - nr: " + Teller;
 
-    } 
-        
-
-    
-
-   
 }
-
