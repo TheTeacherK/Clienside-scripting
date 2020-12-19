@@ -1,0 +1,37 @@
+﻿body {
+    /* Uncomment this to enable scrolling and zooming
+  touch-action: manipulation;
+  */
+    background-color: dimgray;
+}
+
+
+
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=button]:hover {
+        background-color: #45a049;
+    }
+
+
+.main {
+width:600px;
+}
+
+.rechts {
+width: 300px;
+float:right;
+}
+
+.links {
+width: 300px;
+float:left;
+}
