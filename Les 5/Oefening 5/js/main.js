@@ -10,7 +10,7 @@ function Reken() {
         for (Teller = 1; Teller < 11; Teller++)
         {
             Product = getal1 * Teller;
-            document.getElementById('uitkomst').value = document.getElementById('uitkomst').value + Product + " * " + Teller + " = " + Product + "\n";
+            document.getElementById('uitkomst').value = document.getElementById('uitkomst').value + getal1  + " * " + Teller + " = " + Product + "\n";
         }
     }
 
