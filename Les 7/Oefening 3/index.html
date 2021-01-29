@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>App1</title>
+    <link href="css/default.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+
+      Geef een getal1 op <input class="textbox" type="number" id="number1">
+      <br />
+
+      Geef een getal2 op <input class="textbox" type="number" id="number2">
+      <br />
+
+    <button onclick="myFunctionSom(parseFloat(document.getElementById('number1').value) ,parseFloat(document.getElementById('number2').value))"  class="Button" type="button">+</button>
+    <button onclick="myFunctionMin(parseFloat(document.getElementById('number1').value) ,parseFloat(document.getElementById('number2').value))"  class="Button" type="button">-</button>
+    <button onclick="myFunctionMaal(parseFloat(document.getElementById('number1').value) ,parseFloat(document.getElementById('number2').value))"  class="Button" type="button">*</button>
+    <button onclick="myFunctionDelen(parseFloat(document.getElementById('number1').value) ,parseFloat(document.getElementById('number2').value))"  class="Button" type="button">/</button>
+
+<br><br>
+Uitkomst:<br />
+<textarea id="uitkomst" cols="30" rows="1"> </textarea>
+
+
+</body>
+</html>
